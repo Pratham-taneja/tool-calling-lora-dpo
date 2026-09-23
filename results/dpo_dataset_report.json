@@ -1,0 +1,37 @@
+{
+  "chosen_sources": {
+    "gold_fallback": 152,
+    "sampled_exact": 251
+  },
+  "counts": {
+    "over_length_candidates": 0,
+    "preference_pairs": 403,
+    "sampled_candidates": 8000,
+    "source_examples": 2000
+  },
+  "identity": {
+    "adapter_sha256": "ce0bffa7f29ad0f484a2e3ebd8c67ef6ad31df11cebb176355d2320daefcd996",
+    "candidates_per_prompt": 4,
+    "config_hash": "214ec2c3b912d3056f659478b1108cffe31d931628284073469a921549615ba4",
+    "max_new_tokens": 384,
+    "seed": 42,
+    "source_count": 2000,
+    "source_ids_hash": "d6f1686a104b0304504f03b0941cea24413e93e49d0412ce27fb74135a4e352b",
+    "stage": "dpo_candidate_generation",
+    "temperature": 0.8,
+    "top_p": 0.9
+  },
+  "identity_hash": "d8c532ecedca2b2022d136a676e1f66809abd1c9c91c40a01857079e03bf5613",
+  "max_seq_length": 1024,
+  "pair_ids_hash": "9f15c8936b47203c77a21e026d3dfbd29a4e0e2657ef7b11475782629ecf8744",
+  "rejection_reasons": {
+    "extra_argument": 63,
+    "missing_argument": 79,
+    "wrong_argument_value": 239,
+    "wrong_call_count": 13,
+    "wrong_tool": 9
+  },
+  "skipped_reasons": {
+    "all_candidates_correct": 1597
+  }
+}

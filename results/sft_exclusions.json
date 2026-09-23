@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "excluded": 518,
+    "input": 59200,
+    "kept": 58682
+  },
+  "max_seq_length": 1024,
+  "reason": "rendered_token_length_exceeds_limit"
+}

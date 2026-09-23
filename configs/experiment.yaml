@@ -1,0 +1,44 @@
+seed: 42
+
+model:
+  id: Qwen/Qwen2.5-3B-Instruct
+  fallback_id: Qwen/Qwen2.5-1.5B-Instruct
+  load_in_4bit: true
+
+data:
+  id: Salesforce/xlam-function-calling-60k
+  validation_size: 500
+  test_size: 300
+
+prompt:
+  max_seq_length: 1024
+
+evaluation:
+  max_new_tokens: 384
+  do_sample: false
+  batch_size: 1
+
+sft:
+  lora_rank: 8
+  lora_alpha: 16
+  lora_dropout: 0.0
+  micro_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 1
+  learning_rate: 0.0002
+  scheduler: cosine
+  warmup_ratio: 0.03
+  optimizer: adamw_8bit
+  assistant_only_loss: true
+  gradient_checkpointing: unsloth
+
+dpo:
+  source_examples: 2000
+  candidates_per_prompt: 4
+  sample_temperature: 0.8
+  sample_top_p: 0.9
+  beta: 0.1
+  micro_batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 1
+  learning_rate: 0.000005

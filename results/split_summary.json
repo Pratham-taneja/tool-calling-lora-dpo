@@ -1,0 +1,15 @@
+{
+  "config_hash": "214ec2c3b912d3056f659478b1108cffe31d931628284073469a921549615ba4",
+  "counts": {
+    "test": 300,
+    "total": 60000,
+    "train": 59200,
+    "validation": 500
+  },
+  "hashes": {
+    "test": "f25b889ef7215a7b94d24f4c3d89e7c313bc6d3917e9d1a11290cad8ec922ea6",
+    "train": "f66e7e3c8e9e6dad0d29d537ea3936d9f4655c8d9d9882803f5e1504b67241f3",
+    "validation": "7f8fc449367012f64e27d606f2a002298ee126524bd040ef28c741451cb18e9c"
+  },
+  "seed": 42
+}

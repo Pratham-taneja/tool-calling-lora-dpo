@@ -1,0 +1,41 @@
+{
+  "aggregate": {
+    "confidence_intervals": {
+      "args_exact": {"lower": 0.7833333333333333, "mean": 0.8266666666666667, "upper": 0.87},
+      "end_to_end_exact": {"lower": 0.7833333333333333, "mean": 0.8266666666666667, "upper": 0.87},
+      "json_valid": {"lower": 1.0, "mean": 1.0, "upper": 1.0},
+      "tool_correct": {"lower": 0.9633333333333334, "mean": 0.98, "upper": 0.9933333333333333}
+    },
+    "error_counts": {
+      "exact": 248,
+      "extra_argument": 7,
+      "missing_argument": 10,
+      "wrong_argument_value": 29,
+      "wrong_call_count": 4,
+      "wrong_tool": 2
+    },
+    "example_count": 300,
+    "metrics": {
+      "args_exact": 0.8266666666666667,
+      "args_exact_given_tool": 0.8435374149659864,
+      "call_count_correct": 0.9866666666666667,
+      "end_to_end_exact": 0.8266666666666667,
+      "json_valid": 1.0,
+      "schema_valid": 1.0,
+      "tool_correct": 0.98
+    }
+  },
+  "artifact_scope": "Aggregate metrics retained for version control; per-example generations are excluded.",
+  "metadata": {
+    "adapter_path": "artifacts/models/dpo_lora",
+    "config_hash": "214ec2c3b912d3056f659478b1108cffe31d931628284073469a921549615ba4",
+    "evaluation_hash": "05705359880b9edd24e7307867df477f69a300b2495ec2c7b76fcb5b35e3f23a",
+    "example_ids_hash": "f25b889ef7215a7b94d24f4c3d89e7c313bc6d3917e9d1a11290cad8ec922ea6",
+    "manifest_hash": "902340453022cca5e44b8b2beb4e458d6378149a00d365e2cfe4519ae021d011",
+    "max_new_tokens": 384,
+    "max_seq_length": 1024,
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "split_name": "test"
+  },
+  "stage": "dpo"
+}

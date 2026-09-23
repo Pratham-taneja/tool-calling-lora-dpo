@@ -1,0 +1,203 @@
+{
+  "source_log": "rollout-2026-09-12T20-35-55-01a09530-26d9-7970-b8d3-fbdad9c6a584.jsonl",
+  "issues": [
+    "unmatched patch context: scripts/prepare_data.py: ['from tool_calling_lora_dpo.prompting import token_length', '']"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "origin": "successful original patch",
+      "sha256": "bd05ac87b87958db5c303f040543dc9e6332519b13f95c3c155c2448ed98f369"
+    },
+    {
+      "path": "configs/experiment.yaml",
+      "origin": "original file read",
+      "sha256": "5a5413f799626f48d281b4fab8398cea3a9121545bfc5416582fc041c61da014"
+    },
+    {
+      "path": "docs/experiment_log.md",
+      "origin": "successful original patch",
+      "sha256": "78633e0ca7a76c6f6a5cc514e8c45477fde35ecce75e8ac4d9235849e8cffabe"
+    },
+    {
+      "path": "notebooks/01_data_prep_analysis.ipynb",
+      "origin": "successful original patch",
+      "sha256": "6b00258ddf94b536b234856e8b3c0fd0a892230007eded441956bd7b80804096"
+    },
+    {
+      "path": "pyproject.toml",
+      "origin": "original file read",
+      "sha256": "dbd7cf8bb1f85a7ebc8e2c5c116f692c70431059f653aa700dbc268c578876f2"
+    },
+    {
+      "path": "scripts/analyze_data.py",
+      "origin": "successful original patch",
+      "sha256": "c167f0b4a201cea0ba04f4e052f6a43e44f21911ea52a959c4a7879550c607f5"
+    },
+    {
+      "path": "scripts/build_sft_dataset.py",
+      "origin": "original file read",
+      "sha256": "7db5e1ebc78049701c487e0b5f85392c8d039c1ca32d07c7da064539c45a3ae6"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "origin": "successful original patch",
+      "sha256": "7fde4bb046b23c189f61ea0c13966a1a40c133ce3a93f0ccda5aa8b29e7b4916"
+    },
+    {
+      "path": "scripts/preflight.py",
+      "origin": "successful original patch",
+      "sha256": "4f0fca25aca1c9f8d329216b035ec5ef91d773a938714587b64d6231e7d2a51a"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "origin": "successful original patch",
+      "sha256": "fdbfd0b9714b5d35e63b4f49d08172d18cb51697b84cdfd6eb5cc7232ad032ab"
+    },
+    {
+      "path": "scripts/run_model_eval.py",
+      "origin": "successful original patch",
+      "sha256": "06f6d8ad4a83e8b6223842827103a8a66e3e78c7337edef734635205e673f3fb"
+    },
+    {
+      "path": "scripts/smoke_inference.py",
+      "origin": "successful original patch",
+      "sha256": "4f5fb2987f5648019efd04dcbdf82677ebbe7a8337ab1085a13f1f178f1ead02"
+    },
+    {
+      "path": "scripts/train_sft.py",
+      "origin": "successful original patch",
+      "sha256": "2d289c5e2322adc4792b19d237d08824da0c05d83c118541450f55bc66183c5a"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/__init__.py",
+      "origin": "original chat file",
+      "sha256": "4229b9c69ea4ec38b0f52b94c439b07af657a7392319fe0948cea3a547e01453"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/analysis.py",
+      "origin": "successful original patch",
+      "sha256": "d05ef894672d039540e5acbd3a695be5d4ea28f29ef6ba4574271b4caab57200"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/config.py",
+      "origin": "original file read",
+      "sha256": "33f92edf52778c753c160ee8719b00325355d62c6aa1988020f1945f1561a131"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/data.py",
+      "origin": "original file read",
+      "sha256": "e3ce32455d79468a5e89afccb2abed60f31e988ddbf35cdb0ca985a8dccf406b"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/eval_runner.py",
+      "origin": "successful original patch",
+      "sha256": "493d82543cc6bad2acc3f61797f88ecb988a38fa77670e602b34ed18eb7a17c5"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/evaluation.py",
+      "origin": "original file read",
+      "sha256": "1aa15f6fcbf664df287db17db06ad192bfe4e16dd450b0a639613ed2895b4f6a"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/inference.py",
+      "origin": "successful original patch",
+      "sha256": "b0ad2961e0c06341191785f619798aa66d6cd64f84c641278b0e64e6d2bd0f03"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/preferences.py",
+      "origin": "successful original patch",
+      "sha256": "a4fa5d2169119c2bda2539cd6d274bb43279d0f2437359523f7834153dfb6928"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/prompting.py",
+      "origin": "original file read",
+      "sha256": "f3e4770db04a456cb0a600dafa3655c1adf47b9c7672687381cafa1bd535ccd5"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/reporting.py",
+      "origin": "successful original patch",
+      "sha256": "74edd76868b9aeb3c2a46bb385370ce413bea44f31cdd8421a5d1d30e583635d"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/scoring.py",
+      "origin": "successful original patch",
+      "sha256": "226dd3d31919c96a430f4987409472f2d97dee5737d6eeecc505b2e9474d6efa"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/sft_dataset.py",
+      "origin": "successful original patch",
+      "sha256": "016dab489aeff9748953fbf4d8129019aa6d19a7291db4e64e70211cc55b1d61"
+    },
+    {
+      "path": "src/tool_calling_lora_dpo/sft_training.py",
+      "origin": "successful original patch",
+      "sha256": "f8b4cc6804639457493fb161120d438a2f1bb87d24fc5ee083eaceb2ece2cf4c"
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "origin": "successful original patch",
+      "sha256": "f338bfd0dc25c5597cd421e5a0025849f285d3a8da50b9e2108fbf2bcbced079"
+    },
+    {
+      "path": "tests/test_config.py",
+      "origin": "original chat file",
+      "sha256": "c92b498aabb64bc6f1a736233f71d08e26ffbb208d475368bd8ec7cfe9d6217d"
+    },
+    {
+      "path": "tests/test_data.py",
+      "origin": "successful original patch",
+      "sha256": "481f955feb9a63cf0540a390d3af1f7105bc7c5bb3ac0880d54a081552c727b4"
+    },
+    {
+      "path": "tests/test_eval_runner.py",
+      "origin": "original file read",
+      "sha256": "d374f0956050582da4db999077a0f1d20e36a7b43c44145c83dc1f205badd8a8"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "origin": "original file read",
+      "sha256": "555533024c212b4100261005523158aef865c3d77fc7d1b0ca0c5e3fc2481e29"
+    },
+    {
+      "path": "tests/test_inference.py",
+      "origin": "original file read",
+      "sha256": "3a370db5f35a12355d77514bc29f3393f6bbac5958bcd81a48cb0685811cada9"
+    },
+    {
+      "path": "tests/test_preferences.py",
+      "origin": "successful original patch",
+      "sha256": "091aac4cd3b94e6c14d80271ef524f74a0d434c9e5eff8b0bed1182862db4606"
+    },
+    {
+      "path": "tests/test_prepare_data_script.py",
+      "origin": "successful original patch",
+      "sha256": "a3f4e297f723a10ee1f8b72cba65855b1eb96aa78e00d843d9fbc1ecef349319"
+    },
+    {
+      "path": "tests/test_prompting.py",
+      "origin": "successful original patch",
+      "sha256": "ce563d54131a458bee073a517156ff0609d3aa796ecc0d75fde7d8adf74d6c54"
+    },
+    {
+      "path": "tests/test_reporting.py",
+      "origin": "successful original patch",
+      "sha256": "ef5f0adfc7ba5ec26153c44eb5604224550d715458be47bc766ad85e2b54338d"
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "origin": "successful original patch",
+      "sha256": "720006a04ed9e6de9b56689f7425be0fd818f6382c59c1a071e37f540f03a144"
+    },
+    {
+      "path": "tests/test_sft_dataset.py",
+      "origin": "successful original patch",
+      "sha256": "735dbfe03cef2ab8809f76156398d664749ad39398e74a22d399c30f85719687"
+    },
+    {
+      "path": "tests/test_sft_training.py",
+      "origin": "successful original patch",
+      "sha256": "d991de5c32c9853fb8e5eb20eaf9c76e02bc6b5c1cb2e67ff2eb71ad7c35013e"
+    }
+  ]
+}

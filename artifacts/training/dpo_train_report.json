@@ -1,0 +1,16 @@
+{
+  "config_hash": "214ec2c3b912d3056f659478b1108cffe31d931628284073469a921549615ba4",
+  "metrics": {
+    "examples_seen": 403,
+    "mean_loss": 0.6929350165516212,
+    "optimizer_steps": 26,
+    "runtime_seconds": 1715.5274330000393,
+    "total_steps": 26
+  },
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "output_dir": "artifacts/models/dpo_lora",
+  "pair_count": 403,
+  "pair_ids_hash": "9f15c8936b47203c77a21e026d3dfbd29a4e0e2657ef7b11475782629ecf8744",
+  "sft_adapter_path": "artifacts/models/sft_lora_full",
+  "stage": "dpo"
+}

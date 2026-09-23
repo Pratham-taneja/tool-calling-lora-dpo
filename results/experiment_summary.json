@@ -1,0 +1,39 @@
+{
+  "evaluation_split": "test",
+  "example_count": 300,
+  "example_ids_hash": "f25b889ef7215a7b94d24f4c3d89e7c313bc6d3917e9d1a11290cad8ec922ea6",
+  "stages": {
+    "baseline": {
+      "args_exact": 0.5033333333333333,
+      "call_count_correct": 0.84,
+      "end_to_end_exact": 0.5033333333333333,
+      "json_valid": 0.93,
+      "schema_valid": 0.8866666666666667,
+      "tool_correct": 0.8333333333333334
+    },
+    "sft_pilot": {
+      "args_exact": 0.7066666666666667,
+      "call_count_correct": 0.9766666666666667,
+      "end_to_end_exact": 0.7066666666666667,
+      "json_valid": 0.9966666666666667,
+      "schema_valid": 0.9966666666666667,
+      "tool_correct": 0.97
+    },
+    "sft_full": {
+      "args_exact": 0.8233333333333334,
+      "call_count_correct": 0.9866666666666667,
+      "end_to_end_exact": 0.8233333333333334,
+      "json_valid": 1.0,
+      "schema_valid": 1.0,
+      "tool_correct": 0.9766666666666667
+    },
+    "dpo": {
+      "args_exact": 0.8266666666666667,
+      "call_count_correct": 0.9866666666666667,
+      "end_to_end_exact": 0.8266666666666667,
+      "json_valid": 1.0,
+      "schema_valid": 1.0,
+      "tool_correct": 0.98
+    }
+  }
+}

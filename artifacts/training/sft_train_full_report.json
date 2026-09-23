@@ -1,0 +1,17 @@
+{
+  "config_hash": "214ec2c3b912d3056f659478b1108cffe31d931628284073469a921549615ba4",
+  "max_train_steps": -1,
+  "metrics": {
+    "epoch": 1.0,
+    "total_flos": 4.219391459873833e+17,
+    "train_loss": 0.0014120799488303705,
+    "train_runtime": 4112.614,
+    "train_samples_per_second": 14.269,
+    "train_steps_per_second": 0.892
+  },
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "output_dir": "artifacts/models/sft_lora_full",
+  "stage": "sft",
+  "train_ids_hash": "4228de29d2e2fcb76e50294774ccceed7d821d78517c0f5e8af87a894022daf9",
+  "train_record_count": 58682
+}

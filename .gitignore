@@ -1,0 +1,61 @@
+# Local Python environments
+.venv/
+tool-call/
+venv/
+env/
+
+# Python cache and build outputs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+unsloth_compiled_cache/
+
+# Local data and large experiment outputs
+data/raw/
+data/interim/
+data/processed/*.jsonl
+data/processed/*.tmp
+data/processed/*.partial
+data/hf_cache/
+artifacts/models/
+artifacts/checkpoints/
+artifacts/logs/
+artifacts/predictions/
+artifacts/preferences/
+results/*.tmp
+results/*.partial
+results/*.jsonl
+
+# Model and training artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoint-*/
+adapter_model.*
+optimizer.pt
+scheduler.pt
+trainer_state.json
+
+# Secrets and local auth
+.env
+.env.*
+huggingface_token*
+*.token
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

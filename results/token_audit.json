@@ -1,0 +1,17 @@
+{
+  "example_count": 60000,
+  "max_seq_length": 1024,
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "over_limit_counts": {
+    "1024": 523,
+    "1536": 33,
+    "2048": 3
+  },
+  "percentiles": {
+    "max": 2271,
+    "p50": 402,
+    "p90": 678,
+    "p95": 784,
+    "p99": 1005
+  }
+}

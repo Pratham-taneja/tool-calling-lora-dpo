@@ -1,0 +1,42 @@
+[project]
+name = "tool-calling-lora-dpo"
+version = "0.1.0"
+description = "QLoRA and DPO experiment for strict JSON tool-call generation."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [
+  { name = "Shiva" }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q --basetemp=.pytest-tmp"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+exclude = ["tool-call", "test.py", "unsloth_compiled_cache"]
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "I",
+  "UP",
+  "B",
+  "SIM"
+]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["E402", "I001"]
+"notebooks/*.ipynb" = ["E402", "I001"]
+
+[tool.coverage.run]
+source = ["src/tool_calling_lora_dpo"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
